@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.pageTop {
+	position: fixed;
+    width: 100vw;
+    height:94vh;
+	background: linear-gradient(108.22deg, #3137C9 0%, #7DD0E2 49.8%, #A8B5DF 79.6%, #DCD6E4 94.6%);
+}
+.cardTop{
+	margin-top: 3%;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-bottom: 4%;
+	width: 92%;
+	height: 86%;
+	background: linear-gradient(105.38deg, rgba(255, 255, 255, 0.6) 1.57%, rgba(255, 255, 255, 0.336) 97.89%);
+	backdrop-filter: blur(4px);
+	border-radius: 46px;
+	border-width: 2px;
+	border-style: solid;
+	border-top-color: rgb(226, 226, 226);
+	border-left-color: rgb(226, 226, 226);
+	border-bottom-color:rgb(226, 226, 226);
+	border-right-color: transparent;
+}
+.cardMainTop{
+	display: flex;
+	flex-direction: row;
+	 
+}
+.iconComputer{
+	margin-top: 2.5%;
+	margin-left: 4%;
+	width: 8vw;
+	height: 14vh;
+}
+.navbarUl{
+	width: 52vw;
+	height: 18vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-left: 30%;
+}
+.navItem{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	margin-right: 6%;
+	line-height: 9.8em;
+}
+.navLink{
+	font-size: 2.2vw;
+	color: #000;
+	text-decoration: none;
+}
+.navLink:hover{
+	color: #FFFFFF;
+} 
+  .buttonContact {
+	position:static;
+	width: 9vw;
+	height: 8vh;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+	border-color: #fff;
+	border-radius: 18px;
+	border-width: 2px;
+	border-style: solid;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2vw;
+	/* identical to box height */
+	color: #FFFFFF;
+	transition-duration: 1.4s;
+	cursor: pointer;
+	display: inline-block;
+  }
+  .buttonContact:hover {
+	border-color: #8B3ACB;
+	color: #8B3ACB;
+  }
+  .titlePageTop{
+	color: #FFFFFF;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: -87vw;
+	margin-top: 13vw;
+	font-size: 3.6vw;	
+	word-wrap: break-word;
+	width: 46vw;
+	height: 18vh;
+	align-items: center;
+  }
+  .subtitlePageTop{
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.6vw;
+	align-items: center;
+	margin-left: -46vw;
+	margin-top: 21vw;
+	width: 36vw;
+	height: 8vh;
+	word-wrap: break-word;
+  }
+  .imgProfile{
+	  width: 16.4vw;
+	  height: 34.8vh;
+	  margin-left: 28.4vw;
+	  margin-top: 12vw;
+	  border-radius: 100vw;
+	  border-color: #ffffff;
+	  border-width: 2px;
+	  border-style: solid;
+	  background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+  }
+  .profile{
+	width: 19vw;
+	height: 36vh;
+	margin-left: -1.3vw;
+	margin-top: 0.2vw;
+  }
+  .buttonSeeMore {
+	position:static;
+	margin-top: 28vw;
+	margin-left: -74vw;
+	width: 12.4vw;
+	height: 8.4vh;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%);
+	border-color: #8B3ACB;
+	border-radius: 18px;
+	border-width: 2px;
+	border-style: solid;
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 2vw;
+	/* identical to box height */
+	color: #8B3ACB;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	display: inline-block;
+  }
+  .buttonSeeMore:hover {
+	border-color: #fff;
+	color: #fff;
+  }
+  .iconRocket{
+	margin-top: 29vw;
+	margin-left: 52.8vw;
+	width: 10.2vw;
+	height: 14vh;
+}
+
+  
